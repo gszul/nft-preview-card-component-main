@@ -12,31 +12,30 @@
   <title>Frontend Mentor | NFT preview card component</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; margin-bottom: 10px}
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
 
   <main>
-    <article>
-      <a class="a_img" href="./"><img src="images/image-equilibrium.jpg" alt="cubic crystal on a blue background"></a>
-      <h1><a class="a_header" href="./">Equilibrium #3429</a></h1>
-      <p>Our Equilibrium collection promotes balance and calm.</p>
-      <div>
-        <span>
-          <img src="images/icon-ethereum.svg" alt="ethereum icon">
-          0.041 ETH
-        </span>
-        <span>
-          <img src="images/icon-clock.svg" alt="clock icon">
-          3 days left
-        </span>
+    <article class="card">
+      <a class="card__title-img" href="./"><img src="images/image-equilibrium.jpg" alt="cubic crystal on a blue background"></a>
+      <h1><a class="card__title" href="./">Equilibrium #3429</a></h1>
+      <p class="describe">Our Equilibrium collection promotes balance and calm.</p>
+      <div class="sales-info">
+        <img src="images/icon-ethereum.svg" alt="ethereum icon">
+        <span class="value">0.041 ETH</span>
+        <img src="images/icon-clock.svg" alt="clock icon">
+        <span class="time">3 days left</span>
       </div>
       <hr>
       <footer>
-        <img src="images/image-avatar.png" alt="creator avatar">
-        <p>Creation of <a href="./">Jules Wyvern</a></p>
+        <p class="author">
+          <img class="author__avatar" src="images/image-avatar.png" alt="creator avatar">
+          Creation of 
+          <a class="author__name" href="./">Jules Wyvern</a>
+        </p>
       </footer>
     </article>
   </main>  
