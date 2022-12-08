@@ -23,7 +23,7 @@
     --main-font: "Outfit";
 
     font-family: var(--main-font), sans-serif;
-    font-size: 18px;
+    font-size: min(18px, 4.2vw);
 }
 
 body {
@@ -95,7 +95,7 @@ a:hover {
 /* header anchor */
 
 .card__title {
-    font-size: 0.80em;
+    font-size: 1em;
 }
 
 
@@ -105,7 +105,7 @@ p,
 span {
     color: var(--first-color);
     font-weight: 300;
-    font-size: 0.89em;
+    font-size: 1rem;
     line-height: 1.7em;
 }
 
@@ -128,7 +128,7 @@ hr {
 /* article footer */
 
 .author {
-    font-size: .85rem;
+    font-size: .95rem;
 }
 
 .author__avatar {
